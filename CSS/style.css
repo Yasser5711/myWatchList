@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+body {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 200px !important;
+}
+.cont {
+  overflow: hidden;
+}
+.cont1 {
+  display: none;
+}
+/* Add animation to "page content" */
+.ui.visible.scale.down.sidebar ~ .pusher {
+  padding-bottom: 800px !important;
+}
+.myBtn {
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+
+#slideshow2 .slick-current,
+#slideshow4 .slick-current {
+  box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.75) !important;
+  transition: all 1ms;
+}
+
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.6px;
+  word-spacing: -0.6px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+h5 {
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  word-spacing: -0.6px;
+  color: #141414;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+.myitem {
+  font-family: "Cairo", sans-serif;
+  color: #141414;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+a {
+  color: #000000 !important;
+}
+.posterimg {
+  border-radius: 42px !important;
+  box-shadow: -18px 10px 93px 14px rgba(0, 0, 0, 0.795) !important;
+}
+.principale {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-radius: 16px !important;
+  box-shadow: -18px 10px 93px 14px rgba(0, 0, 0, 0.42) !important;
+  backdrop-filter: blur(9px) !important;
+  -webkit-backdrop-filter: blur(9px) !important;
+}
+.principalemodal {
+  background: rgba(255, 255, 255, 0.274) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(11.1px) !important;
+  -webkit-backdrop-filter: blur(11.1px) !important;
+  border: 0px solid rgba(255, 255, 255, 1) !important;
+}
+.secondaire {
+  background: rgba(255, 255, 255, 0.144) !important;
+  border-radius: 16px !important;
+  box-shadow: -18px 10px 93px 14px rgba(0, 0, 0, 0.137) !important;
+}
+.mycard {
+  background: rgba(255, 255, 255, 0.144) !important;
+  border-radius: 4px !important;
+  box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.75) !important;
+}
+.mycard1 {
+  background: none !important;
+  border-radius: 16px !important;
+  box-shadow: none !important;
+}
+.mycast {
+  background: rgba(255, 255, 255, 0.144) !important;
+  border-radius: 4px !important;
+  box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.75) !important;
+
+  margin: 26px 0 !important;
+}
+@media only screen and (max-width: 600px) {
+  .mycast {
+    width: 207px !important;
+  }
+}
+
+#slideshow1 img,
+#modal1 img {
+  border-radius: 16px !important;
+}
+#slideshow2 img,
+#slideshow4 img {
+  border-radius: 16px !important;
+
+  margin: 26px 6px !important;
+}
+.modal {
+  overflow-y: scroll !important;
+}
+.conti {
+  position: relative;
+
+  margin: 0 auto;
+}
+.conti img {
+  vertical-align: middle;
+}
+.conti .contenta {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+#seasonep .swiper-slide img,
+#epthumb .swiper-slide img,
+#ep_stills_thumb .swiper-slide img,
+#ep_stills_slide .swiper-slide img {
+  border-radius: 12px !important;
+}
+#swiper3 .swiper-slide img {
+  height: auto !important;
+  width: 1300px !important;
+  border-radius: 16px !important;
+}
+#swiper1 .swiper-slide img,
+#swiper2 .swiper-slide img {
+  border-radius: 12px !important;
+  margin: 20px 0px !important;
+  box-shadow: -1px 0px 17px 3px rgba(0, 0, 0, 0.75) !important;
+}
+#swiper1 .swiper-slide-active img,
+#swiper2 .swiper-slide-active img {
+  box-shadow: none !important;
+  border-radius: 16px !important;
+  transition: all 1ms;
+}
+.swiper-slide {
+  transition: all 0.4s ease;
+}
+@media only screen and (max-width: 768px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-slide.swiper-slide-prev {
+    transform: translateX(10%);
+  }
+  .swiper-slide.swiper-slide-next {
+    transform: translateX(-10%);
+  }
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  left: 0;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  right: 0;
+}
+#gallery-thumbs {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.144) !important;
+  box-shadow: -18px 10px 93px 14px rgba(0, 0, 0, 0.356) !important;
+}
+#gallery-thumbs img {
+  border-radius: 12px;
+}
+.gallery-thumbs .swiper-slide {
+  opacity: 0.4;
+}
+#seasonep img {
+  height: 100%;
+}
+#seasonep .swiper-slide {
+  height: auto !important;
+}
+#seasonep .swiper-content {
+  height: 100% !important;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.swiper-pagination-fraction {
+  font-family: "Varela Round", sans-serif !important;
+}
+#stars .card {
+  background: rgba(255, 255, 255, 0.144) !important;
+  border-radius: 4px !important;
+  box-shadow: 0.5px 1.5px 24.5px 8px rgba(0, 0, 0, 0.75) !important;
+
+  margin: 26px 0 !important;
+}
+
+#sticky_menu {
+  position: fixed;
+  top: 2.5em;
+  left: 0px;
+  width: 70px;
+  height: auto;
+  padding-left: 20px;
+  overflow: hidden;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
